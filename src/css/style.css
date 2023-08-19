@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header, 
+main,
+footer {
+    margin: 2rem;
+}
+
+body {
+    background: rgb(107, 107, 107);
+    font: normal 15pt arial;
+}
+
+header {
+    background: rgb(73, 73, 73);
+    color: #42e46d;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.conteudo {
+    background: rgb(73, 73, 73);
+    color: white;
+    border-radius: 1rem;
+    padding: 15px;
+    width: 500px;
+    box-shadow: -10px 10px 0 #75d891;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.tabuada {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.inputformulario {
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1.25rem;
+    outline-color: #42e46d;
+}
+
+.button {
+    background: #75d891;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 1.25rem;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: #5ead74;
+}
+
+.tab10 {
+    cursor: pointer;
+}
+
+label {
+    font-size: 15px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    font-style: italic;
+}
+
+a {
+    color: #42e46d;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #30a74f;
+}
+
+.mt-1 {
+    margin-top: 1rem;
+}
+
+.mt-2 {
+    margin-top: 2rem;
+}
+
+.mb-1 {
+    margin-bottom: 1rem;
+}
+
+.mb-2 {
+    margin-bottom: 2rem;
+}
+
+@media (max-width: 580px) {
+    header {
+        font-size: 3vw;
+    }
+
+    .conteudo {
+        width: 90vw;
+    }
+}
